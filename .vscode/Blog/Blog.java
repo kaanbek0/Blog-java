@@ -13,8 +13,8 @@ import java.util.Scanner;
 public class Blog {
     private class Post
     {
-        private String[] header;
-        private String body;
+        private String header;
+        private String[] body;
 
         public void Post(String h, String b)
         {   
@@ -30,8 +30,8 @@ public class Blog {
                 }
 
             }
-            header = newBody;
-            body = b;
+            header = h;
+            body = newBody;
         }
 
             
