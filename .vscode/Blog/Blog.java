@@ -68,11 +68,7 @@ public class Blog {
         posts[numPost++].Post(h,b);
 
     }
-    @Override
-    private String toString()
-    {
-        
-    }
+    
 
     public String outPosts()
     {
